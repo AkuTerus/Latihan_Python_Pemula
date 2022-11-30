@@ -20,6 +20,7 @@ def suhuKelvin(celsius):
     suhuKelvin = 273+celsius
     return suhuKelvin
 celsius = int(input("Masukan Suhu Celsius : "))
-print("Hasil Konversi Suhu",celsius, "C" ,suhuReamur(celsius))
-print("Hasil Konversi Suhu",celsius, "C" ,suhuFarenheit(celsius))
-print("Hasil Konversi Suhu",celsius, "C" ,suhuKelvin(celsius))
+print("Hasil Konversi Suhu",celsius, "C" ,suhuReamur(celsius),"Reamur")
+print("Hasil Konversi Suhu",celsius, "C" ,suhuFarenheit(celsius),"Faremheit")
+print("Hasil Konversi Suhu",celsius, "C" ,suhuKelvin(celsius),"Kelvin")
+print("++++++++++++++++++++++++++++++++++++++++++++++++++")
