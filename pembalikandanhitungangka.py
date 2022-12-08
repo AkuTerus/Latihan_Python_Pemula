@@ -3,6 +3,7 @@ kalimat = input("Masukan kata atau angka: ")
 for i in range(len(kalimat), 0, -1):
     print(kalimat[i-1], end="")
 #nomor 2
+print("\n")
 angka = input("Masukkan angka: ")
 angka_hitung = input("Masukkan angka yang dihitung: ")
 
