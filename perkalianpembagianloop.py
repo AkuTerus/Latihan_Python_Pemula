@@ -21,3 +21,7 @@ if model != "1" and model != "2":
 else:
     if(model == "1"): model_perkalian()
     elif(model == "2"): model_pembagian()
+
+        
+        #Edit Sedikit
+        
